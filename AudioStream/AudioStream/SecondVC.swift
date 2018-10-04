@@ -9,26 +9,51 @@
 import UIKit
 import youtube_ios_player_helper
 import SwiftWebSocket
-import AVKit
+import AVFoundation
 
 class SecondVC: UIViewController, YTPlayerViewDelegate {
     @IBOutlet weak var redBtn: UIButton!
     @IBOutlet weak var ytPlayerView: YTPlayerView!
     var socket: WebSocket? // WebSocket("ws://demos.kaazing.com/echo")
-    
+    var player: AVPlayer?
+var avPlayerItem:AVPlayerItem?
     override func viewDidLoad() {
         super.viewDidLoad()
         self.ytPlayerView.delegate = self
+        
         let playVar = ["playsinline" : 1, "controls": 0, "loop": 1, "autoplay": 0, "playlist": "QPDX91iJ_RA"] as [String : Any]
 //        ytPlayerView.load(withVideoId: "QPDX91iJ_RA")
-        ytPlayerView.load(withVideoId: "QPDX91iJ_RA", playerVars: playVar)
-        self.socket = WebSocket("ws://demos.kaazing.com/echo")
         // Do any additional setup after loading the view.
         
-        let videoURL = URL(string: "http://stream.radioreklama.bg/radio1.opus")
-        let player = AVPlayer(url: videoURL!)
+        do {
+            try AVAudioSession.sharedInstance().setCategory(AVAudioSessionCategoryPlayback)
+            print("AVAudioSession Category Playback OK")
+            do {
+                try AVAudioSession.sharedInstance().setActive(true)
+                print("AVAudioSession is Active")
+                
+            } catch let error as NSError {
+                print(error.localizedDescription)
+            }
+        } catch let error as NSError {
+            print(error.localizedDescription)
+        }
+        
+        
 //        let playerLayer = AVPlayerLayer(player: player)
-//        player.play()
+//
+        
+        DispatchQueue.main.async { [weak self] in
+            self?.ytPlayerView.load(withVideoId: "QPDX91iJ_RA", playerVars: playVar)
+            self?.socket = WebSocket("ws://demos.kaazing.com/echo")
+//            let videoURL = URL(string: "https://s3.amazonaws.com/kargopolov/kukushka.mp3")
+            let videoURL = URL(string: "http://stream.radioreklama.bg/radio1.opus")
+            self?.avPlayerItem = AVPlayerItem.init(url: videoURL! as URL)
+            self?.player = AVPlayer(playerItem: self?.avPlayerItem)
+            self?.player?.volume = 1.0
+            self?.player?.rate = 1.0
+            self?.player?.play()
+        }
         
         socket?.event.open = {
             print("opened")

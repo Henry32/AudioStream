@@ -18,6 +18,7 @@
 		BA4E32292165B53700B64750 /* AudioStreamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4E32282165B53700B64750 /* AudioStreamTests.swift */; };
 		BA4E32342165B53700B64750 /* AudioStreamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4E32332165B53700B64750 /* AudioStreamUITests.swift */; };
 		BA4E32422165BCC000B64750 /* SecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4E32412165BCC000B64750 /* SecondVC.swift */; };
+		BA4E324421662D7A00B64750 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA4E324321662D7900B64750 /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		BA4E32332165B53700B64750 /* AudioStreamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioStreamUITests.swift; sourceTree = "<group>"; };
 		BA4E32352165B53700B64750 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA4E32412165BCC000B64750 /* SecondVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondVC.swift; sourceTree = "<group>"; };
+		BA4E324321662D7900B64750 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		C1617271485DA338F2F4C401 /* Pods-AudioStreamUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AudioStreamUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AudioStreamUITests/Pods-AudioStreamUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		D78ECAB187C43797AC6B8F3A /* Pods_AudioStreamTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AudioStreamTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -68,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA4E324421662D7A00B64750 /* AVFoundation.framework in Frameworks */,
 				19475731E6ADA7B4B8A8374E /* Pods_AudioStream.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -94,6 +97,7 @@
 		0A5C53A9C38A3FAA4C6ABBB6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BA4E324321662D7900B64750 /* AVFoundation.framework */,
 				406DE4FFB8734AC265FA3E55 /* Pods_AudioStream.framework */,
 				D78ECAB187C43797AC6B8F3A /* Pods_AudioStreamTests.framework */,
 				97E4710E9A75769A6DF522D1 /* Pods_AudioStreamUITests.framework */,
@@ -560,7 +564,10 @@
 				DEVELOPMENT_TEAM = G5T6QS8M3M;
 				INFOPLIST_FILE = AudioStream/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = Henry.AudioStream;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -577,7 +584,10 @@
 				DEVELOPMENT_TEAM = G5T6QS8M3M;
 				INFOPLIST_FILE = AudioStream/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = Henry.AudioStream;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -593,7 +603,11 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = AudioStreamTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = Henry.AudioStreamTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -610,7 +624,11 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = AudioStreamTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = Henry.AudioStreamTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -626,7 +644,11 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = AudioStreamUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = Henry.AudioStreamUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -642,7 +664,11 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = AudioStreamUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = Henry.AudioStreamUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
