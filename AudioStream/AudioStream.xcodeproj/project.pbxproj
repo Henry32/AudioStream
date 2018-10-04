@@ -1,0 +1,696 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19475731E6ADA7B4B8A8374E /* Pods_AudioStream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 406DE4FFB8734AC265FA3E55 /* Pods_AudioStream.framework */; };
+		29742D4CA86F15806027DEE0 /* Pods_AudioStreamUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97E4710E9A75769A6DF522D1 /* Pods_AudioStreamUITests.framework */; };
+		6633397C042596D36A5F9A5E /* Pods_AudioStreamTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D78ECAB187C43797AC6B8F3A /* Pods_AudioStreamTests.framework */; };
+		BA4E32142165B52500B64750 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4E32132165B52500B64750 /* AppDelegate.swift */; };
+		BA4E32162165B52500B64750 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4E32152165B52500B64750 /* ViewController.swift */; };
+		BA4E32192165B52500B64750 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA4E32172165B52500B64750 /* Main.storyboard */; };
+		BA4E321B2165B53700B64750 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA4E321A2165B53700B64750 /* Assets.xcassets */; };
+		BA4E321E2165B53700B64750 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA4E321C2165B53700B64750 /* LaunchScreen.storyboard */; };
+		BA4E32292165B53700B64750 /* AudioStreamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4E32282165B53700B64750 /* AudioStreamTests.swift */; };
+		BA4E32342165B53700B64750 /* AudioStreamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4E32332165B53700B64750 /* AudioStreamUITests.swift */; };
+		BA4E32422165BCC000B64750 /* SecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4E32412165BCC000B64750 /* SecondVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BA4E32252165B53700B64750 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA4E32082165B52500B64750 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA4E320F2165B52500B64750;
+			remoteInfo = AudioStream;
+		};
+		BA4E32302165B53700B64750 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA4E32082165B52500B64750 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA4E320F2165B52500B64750;
+			remoteInfo = AudioStream;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1504611404019847372C054B /* Pods-AudioStream.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AudioStream.release.xcconfig"; path = "Pods/Target Support Files/Pods-AudioStream/Pods-AudioStream.release.xcconfig"; sourceTree = "<group>"; };
+		3987A28880416ED705EA23B7 /* Pods-AudioStream.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AudioStream.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AudioStream/Pods-AudioStream.debug.xcconfig"; sourceTree = "<group>"; };
+		406DE4FFB8734AC265FA3E55 /* Pods_AudioStream.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AudioStream.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BF4018F092F0A6418F85A2A /* Pods-AudioStreamTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AudioStreamTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AudioStreamTests/Pods-AudioStreamTests.debug.xcconfig"; sourceTree = "<group>"; };
+		75C917B863CD991EFE5D74D4 /* Pods-AudioStreamUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AudioStreamUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AudioStreamUITests/Pods-AudioStreamUITests.release.xcconfig"; sourceTree = "<group>"; };
+		97E4710E9A75769A6DF522D1 /* Pods_AudioStreamUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AudioStreamUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B71139A77A56F4DD3D2A3005 /* Pods-AudioStreamTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AudioStreamTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AudioStreamTests/Pods-AudioStreamTests.release.xcconfig"; sourceTree = "<group>"; };
+		BA4E32102165B52500B64750 /* AudioStream.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudioStream.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA4E32132165B52500B64750 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BA4E32152165B52500B64750 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BA4E32182165B52500B64750 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BA4E321A2165B53700B64750 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA4E321D2165B53700B64750 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BA4E321F2165B53700B64750 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA4E32242165B53700B64750 /* AudioStreamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudioStreamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA4E32282165B53700B64750 /* AudioStreamTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioStreamTests.swift; sourceTree = "<group>"; };
+		BA4E322A2165B53700B64750 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA4E322F2165B53700B64750 /* AudioStreamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudioStreamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA4E32332165B53700B64750 /* AudioStreamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioStreamUITests.swift; sourceTree = "<group>"; };
+		BA4E32352165B53700B64750 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA4E32412165BCC000B64750 /* SecondVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondVC.swift; sourceTree = "<group>"; };
+		C1617271485DA338F2F4C401 /* Pods-AudioStreamUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AudioStreamUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AudioStreamUITests/Pods-AudioStreamUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D78ECAB187C43797AC6B8F3A /* Pods_AudioStreamTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AudioStreamTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA4E320D2165B52500B64750 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19475731E6ADA7B4B8A8374E /* Pods_AudioStream.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA4E32212165B53700B64750 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6633397C042596D36A5F9A5E /* Pods_AudioStreamTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA4E322C2165B53700B64750 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29742D4CA86F15806027DEE0 /* Pods_AudioStreamUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A5C53A9C38A3FAA4C6ABBB6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				406DE4FFB8734AC265FA3E55 /* Pods_AudioStream.framework */,
+				D78ECAB187C43797AC6B8F3A /* Pods_AudioStreamTests.framework */,
+				97E4710E9A75769A6DF522D1 /* Pods_AudioStreamUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		107FCEC9276AFBA04716C187 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3987A28880416ED705EA23B7 /* Pods-AudioStream.debug.xcconfig */,
+				1504611404019847372C054B /* Pods-AudioStream.release.xcconfig */,
+				4BF4018F092F0A6418F85A2A /* Pods-AudioStreamTests.debug.xcconfig */,
+				B71139A77A56F4DD3D2A3005 /* Pods-AudioStreamTests.release.xcconfig */,
+				C1617271485DA338F2F4C401 /* Pods-AudioStreamUITests.debug.xcconfig */,
+				75C917B863CD991EFE5D74D4 /* Pods-AudioStreamUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BA4E32072165B52500B64750 = {
+			isa = PBXGroup;
+			children = (
+				BA4E32122165B52500B64750 /* AudioStream */,
+				BA4E32272165B53700B64750 /* AudioStreamTests */,
+				BA4E32322165B53700B64750 /* AudioStreamUITests */,
+				BA4E32112165B52500B64750 /* Products */,
+				107FCEC9276AFBA04716C187 /* Pods */,
+				0A5C53A9C38A3FAA4C6ABBB6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BA4E32112165B52500B64750 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA4E32102165B52500B64750 /* AudioStream.app */,
+				BA4E32242165B53700B64750 /* AudioStreamTests.xctest */,
+				BA4E322F2165B53700B64750 /* AudioStreamUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA4E32122165B52500B64750 /* AudioStream */ = {
+			isa = PBXGroup;
+			children = (
+				BA4E32132165B52500B64750 /* AppDelegate.swift */,
+				BA4E32152165B52500B64750 /* ViewController.swift */,
+				BA4E32172165B52500B64750 /* Main.storyboard */,
+				BA4E321A2165B53700B64750 /* Assets.xcassets */,
+				BA4E321C2165B53700B64750 /* LaunchScreen.storyboard */,
+				BA4E321F2165B53700B64750 /* Info.plist */,
+				BA4E32412165BCC000B64750 /* SecondVC.swift */,
+			);
+			path = AudioStream;
+			sourceTree = "<group>";
+		};
+		BA4E32272165B53700B64750 /* AudioStreamTests */ = {
+			isa = PBXGroup;
+			children = (
+				BA4E32282165B53700B64750 /* AudioStreamTests.swift */,
+				BA4E322A2165B53700B64750 /* Info.plist */,
+			);
+			path = AudioStreamTests;
+			sourceTree = "<group>";
+		};
+		BA4E32322165B53700B64750 /* AudioStreamUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BA4E32332165B53700B64750 /* AudioStreamUITests.swift */,
+				BA4E32352165B53700B64750 /* Info.plist */,
+			);
+			path = AudioStreamUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA4E320F2165B52500B64750 /* AudioStream */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA4E32382165B53700B64750 /* Build configuration list for PBXNativeTarget "AudioStream" */;
+			buildPhases = (
+				D6F7F705362714CE2F021783 /* [CP] Check Pods Manifest.lock */,
+				BA4E320C2165B52500B64750 /* Sources */,
+				BA4E320D2165B52500B64750 /* Frameworks */,
+				BA4E320E2165B52500B64750 /* Resources */,
+				31CECA98523F990CF74EDA18 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AudioStream;
+			productName = AudioStream;
+			productReference = BA4E32102165B52500B64750 /* AudioStream.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BA4E32232165B53700B64750 /* AudioStreamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA4E323B2165B53700B64750 /* Build configuration list for PBXNativeTarget "AudioStreamTests" */;
+			buildPhases = (
+				B60537DEAA7BD07E26B5FEF8 /* [CP] Check Pods Manifest.lock */,
+				BA4E32202165B53700B64750 /* Sources */,
+				BA4E32212165B53700B64750 /* Frameworks */,
+				BA4E32222165B53700B64750 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA4E32262165B53700B64750 /* PBXTargetDependency */,
+			);
+			name = AudioStreamTests;
+			productName = AudioStreamTests;
+			productReference = BA4E32242165B53700B64750 /* AudioStreamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BA4E322E2165B53700B64750 /* AudioStreamUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA4E323E2165B53700B64750 /* Build configuration list for PBXNativeTarget "AudioStreamUITests" */;
+			buildPhases = (
+				8D71FB4C0C199090BDD8807D /* [CP] Check Pods Manifest.lock */,
+				BA4E322B2165B53700B64750 /* Sources */,
+				BA4E322C2165B53700B64750 /* Frameworks */,
+				BA4E322D2165B53700B64750 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA4E32312165B53700B64750 /* PBXTargetDependency */,
+			);
+			name = AudioStreamUITests;
+			productName = AudioStreamUITests;
+			productReference = BA4E322F2165B53700B64750 /* AudioStreamUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA4E32082165B52500B64750 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = LinhND;
+				TargetAttributes = {
+					BA4E320F2165B52500B64750 = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+					BA4E32232165B53700B64750 = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = BA4E320F2165B52500B64750;
+					};
+					BA4E322E2165B53700B64750 = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = BA4E320F2165B52500B64750;
+					};
+				};
+			};
+			buildConfigurationList = BA4E320B2165B52500B64750 /* Build configuration list for PBXProject "AudioStream" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA4E32072165B52500B64750;
+			productRefGroup = BA4E32112165B52500B64750 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA4E320F2165B52500B64750 /* AudioStream */,
+				BA4E32232165B53700B64750 /* AudioStreamTests */,
+				BA4E322E2165B53700B64750 /* AudioStreamUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA4E320E2165B52500B64750 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA4E321E2165B53700B64750 /* LaunchScreen.storyboard in Resources */,
+				BA4E321B2165B53700B64750 /* Assets.xcassets in Resources */,
+				BA4E32192165B52500B64750 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA4E32222165B53700B64750 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA4E322D2165B53700B64750 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		31CECA98523F990CF74EDA18 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AudioStream/Pods-AudioStream-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftWebSocket/SwiftWebSocket.framework",
+				"${BUILT_PRODUCTS_DIR}/youtube-ios-player-helper/youtube_ios_player_helper.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftWebSocket.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/youtube_ios_player_helper.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AudioStream/Pods-AudioStream-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D71FB4C0C199090BDD8807D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AudioStreamUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B60537DEAA7BD07E26B5FEF8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AudioStreamTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6F7F705362714CE2F021783 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AudioStream-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA4E320C2165B52500B64750 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA4E32162165B52500B64750 /* ViewController.swift in Sources */,
+				BA4E32422165BCC000B64750 /* SecondVC.swift in Sources */,
+				BA4E32142165B52500B64750 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA4E32202165B53700B64750 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA4E32292165B53700B64750 /* AudioStreamTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA4E322B2165B53700B64750 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA4E32342165B53700B64750 /* AudioStreamUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA4E32262165B53700B64750 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA4E320F2165B52500B64750 /* AudioStream */;
+			targetProxy = BA4E32252165B53700B64750 /* PBXContainerItemProxy */;
+		};
+		BA4E32312165B53700B64750 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA4E320F2165B52500B64750 /* AudioStream */;
+			targetProxy = BA4E32302165B53700B64750 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BA4E32172165B52500B64750 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA4E32182165B52500B64750 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BA4E321C2165B53700B64750 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA4E321D2165B53700B64750 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA4E32362165B53700B64750 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BA4E32372165B53700B64750 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA4E32392165B53700B64750 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3987A28880416ED705EA23B7 /* Pods-AudioStream.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G5T6QS8M3M;
+				INFOPLIST_FILE = AudioStream/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Henry.AudioStream;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		BA4E323A2165B53700B64750 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1504611404019847372C054B /* Pods-AudioStream.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G5T6QS8M3M;
+				INFOPLIST_FILE = AudioStream/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Henry.AudioStream;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		BA4E323C2165B53700B64750 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BF4018F092F0A6418F85A2A /* Pods-AudioStreamTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AudioStreamTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Henry.AudioStreamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AudioStream.app/AudioStream";
+			};
+			name = Debug;
+		};
+		BA4E323D2165B53700B64750 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B71139A77A56F4DD3D2A3005 /* Pods-AudioStreamTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AudioStreamTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Henry.AudioStreamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AudioStream.app/AudioStream";
+			};
+			name = Release;
+		};
+		BA4E323F2165B53700B64750 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1617271485DA338F2F4C401 /* Pods-AudioStreamUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AudioStreamUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Henry.AudioStreamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AudioStream;
+			};
+			name = Debug;
+		};
+		BA4E32402165B53700B64750 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75C917B863CD991EFE5D74D4 /* Pods-AudioStreamUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AudioStreamUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Henry.AudioStreamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AudioStream;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA4E320B2165B52500B64750 /* Build configuration list for PBXProject "AudioStream" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA4E32362165B53700B64750 /* Debug */,
+				BA4E32372165B53700B64750 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA4E32382165B53700B64750 /* Build configuration list for PBXNativeTarget "AudioStream" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA4E32392165B53700B64750 /* Debug */,
+				BA4E323A2165B53700B64750 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA4E323B2165B53700B64750 /* Build configuration list for PBXNativeTarget "AudioStreamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA4E323C2165B53700B64750 /* Debug */,
+				BA4E323D2165B53700B64750 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA4E323E2165B53700B64750 /* Build configuration list for PBXNativeTarget "AudioStreamUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA4E323F2165B53700B64750 /* Debug */,
+				BA4E32402165B53700B64750 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA4E32082165B52500B64750 /* Project object */;
+}

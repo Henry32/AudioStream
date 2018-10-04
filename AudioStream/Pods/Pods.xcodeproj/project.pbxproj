@@ -1,0 +1,1096 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A8425D6B9CCB93911452591EE9044BA /* SwiftWebSocket-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 830D52EBC915174C687132F0A192605D /* SwiftWebSocket-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A891F7AA25AA57E9CCAF3DF77952A68 /* YTPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = E518033EAAD7FF9CBBE26C93619C38DC /* YTPlayerView.m */; };
+		0F835A103B751D05F7FCB6999FD17CD1 /* Pods-AudioStream-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C66274FCDA96CC55E6E94A6E159DE7E9 /* Pods-AudioStream-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2526B68E0902C6A43FEFA54D97A98B21 /* Pods-AudioStreamTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B67E50677123989FE29301DECADEADA1 /* Pods-AudioStreamTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		354A9C45F3B7EABF6CEC5594E22749CA /* Pods-AudioStreamUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2192685CD5994FE7035F6709492EAC69 /* Pods-AudioStreamUITests-dummy.m */; };
+		60E09FC97FEE020D772A82C0F60F8976 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		62FC5C6B65D10633024238B931690659 /* youtube-ios-player-helper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 26412DAB6312BB24768B3A112FB838A2 /* youtube-ios-player-helper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E75BAA22E2DFC965A501E5017263C08 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		78C099739EEE388B03338A8912D4AA97 /* Assets.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5F3FDF81B819E68BCF269A7F30635A0B /* Assets.bundle */; };
+		7FC9D7AD5F1A8E4004B84B40EF50261F /* youtube-ios-player-helper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A410469005ABD4B683F9F5FDB2DEF800 /* youtube-ios-player-helper-dummy.m */; };
+		93CD9C7BD5E26DCF634F41C8DF4CC167 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		A1934E96E712826FCB7C90C816A45ED9 /* YTPlayerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 242A68A2025FF867A4FEC9A3C40BD496 /* YTPlayerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B9E4D121C6D1B9850B26F7FE326B73D5 /* SwiftWebSocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BE98E1C91614A2C60D511D5AB9CE0C2 /* SwiftWebSocket-dummy.m */; };
+		D2F7B5CC5A79075BB31258224C1FE61B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		D3C699357F18DC74F4AE633148F5614B /* Pods-AudioStream-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B52BD8C8FD566C27CACB4541EF9619 /* Pods-AudioStream-dummy.m */; };
+		DC472636CA099B0489E18F116B8E026B /* Pods-AudioStreamUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BBF7E6577EBA7CDEB68B963A8C2278EA /* Pods-AudioStreamUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCFBE9672D91BCCE694676413EAB5B97 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		E1099C3EC24D8B3A8B34923802579B66 /* WebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BC9D40458915FB3A0EE8081CB5DCEB /* WebSocket.swift */; };
+		F18278DF6EB7FCC91A4708E87D8214F9 /* Pods-AudioStreamTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E6313349D2EF6E7769546E00DB465D6 /* Pods-AudioStreamTests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3E8FE2C40278DB1BD9AC53FED1833E61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D245922ACEFB712DF69E52B56EA649CC;
+			remoteInfo = SwiftWebSocket;
+		};
+		7B8B39587DBB8642A6728C35CD1C4F5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF93568035045DB95C37F8A64C33E4A8;
+			remoteInfo = "youtube-ios-player-helper";
+		};
+		CBEDBE0E7C0EDEBBDB926820AF8680FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13DB13956D74D73513E85372B637C108;
+			remoteInfo = "Pods-AudioStream";
+		};
+		D207A8E2DD4A2F72CCF83B0934BF6E3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13DB13956D74D73513E85372B637C108;
+			remoteInfo = "Pods-AudioStream";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		11EAF553ABD374FDAAB2B9C2429C04E8 /* Pods-AudioStreamTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AudioStreamTests-resources.sh"; sourceTree = "<group>"; };
+		1E55361F3FD4F6364BD6B4253E3F8491 /* Pods-AudioStream-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AudioStream-acknowledgements.plist"; sourceTree = "<group>"; };
+		2192685CD5994FE7035F6709492EAC69 /* Pods-AudioStreamUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AudioStreamUITests-dummy.m"; sourceTree = "<group>"; };
+		242A68A2025FF867A4FEC9A3C40BD496 /* YTPlayerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YTPlayerView.h; path = Classes/YTPlayerView.h; sourceTree = "<group>"; };
+		26412DAB6312BB24768B3A112FB838A2 /* youtube-ios-player-helper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "youtube-ios-player-helper-umbrella.h"; sourceTree = "<group>"; };
+		336370826A7B9AC57C9FC78198520018 /* Pods-AudioStreamUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AudioStreamUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		359D47AC62C0B921E6D15D618DDAD617 /* Pods-AudioStreamUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AudioStreamUITests-frameworks.sh"; sourceTree = "<group>"; };
+		35C0F3DCC275FD8DE44E90F2F22E8A38 /* SwiftWebSocket.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftWebSocket.modulemap; sourceTree = "<group>"; };
+		39A84BAD8C67AED7A9B2A08FDA7BCCC7 /* Pods-AudioStreamTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AudioStreamTests-frameworks.sh"; sourceTree = "<group>"; };
+		44B52BD8C8FD566C27CACB4541EF9619 /* Pods-AudioStream-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AudioStream-dummy.m"; sourceTree = "<group>"; };
+		4AAD771F50B685C9A257EE4B34706CE3 /* Pods-AudioStream.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AudioStream.release.xcconfig"; sourceTree = "<group>"; };
+		4C23E3C4D3620D2589B130D9664CBBC2 /* youtube-ios-player-helper.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "youtube-ios-player-helper.xcconfig"; sourceTree = "<group>"; };
+		50FD6B1502D1F4113CFE38A8A3046FF5 /* Pods-AudioStream-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AudioStream-acknowledgements.markdown"; sourceTree = "<group>"; };
+		51F27173D76907EA2E461BE67D599205 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52BD3ADCE78E7B624C6CBEB3B20BB6D1 /* Pods-AudioStreamTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AudioStreamTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		56830C076255036F6D512DA32D59C8B4 /* SwiftWebSocket-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftWebSocket-prefix.pch"; sourceTree = "<group>"; };
+		5BE98E1C91614A2C60D511D5AB9CE0C2 /* SwiftWebSocket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftWebSocket-dummy.m"; sourceTree = "<group>"; };
+		5F3FDF81B819E68BCF269A7F30635A0B /* Assets.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = Assets.bundle; path = "youtube-ios-player-helper/Assets.bundle"; sourceTree = "<group>"; };
+		651D6B08637477CE3F8B082BA322D4B8 /* Pods-AudioStream-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AudioStream-resources.sh"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		66759F009C245851232D74FF215C8476 /* SwiftWebSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftWebSocket.framework; path = SwiftWebSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		66BC9D40458915FB3A0EE8081CB5DCEB /* WebSocket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebSocket.swift; path = Source/WebSocket.swift; sourceTree = "<group>"; };
+		6829FA8B33CE4602A62C88D6A31A2CD0 /* Pods-AudioStreamUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AudioStreamUITests.release.xcconfig"; sourceTree = "<group>"; };
+		707D02A0E27143635B1F33189630263B /* Pods_AudioStreamTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AudioStreamTests.framework; path = "Pods-AudioStreamTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		74F68AFE7D9F19EC9D693543C1F0B201 /* Pods-AudioStreamUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AudioStreamUITests.modulemap"; sourceTree = "<group>"; };
+		7C26127A2128EB2054D5D30E708DAF64 /* Pods-AudioStream.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AudioStream.debug.xcconfig"; sourceTree = "<group>"; };
+		7E3AC81A8B021233A75DE04FACB14B5E /* youtube-ios-player-helper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "youtube-ios-player-helper.modulemap"; sourceTree = "<group>"; };
+		830D52EBC915174C687132F0A192605D /* SwiftWebSocket-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftWebSocket-umbrella.h"; sourceTree = "<group>"; };
+		8E990012C90E9097D5613F8D01DC78E2 /* Pods-AudioStreamUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AudioStreamUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		91CA9B367C182D9D1288E646238A9599 /* SwiftWebSocket.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftWebSocket.xcconfig; sourceTree = "<group>"; };
+		92FA63AFF7202C36667165EA44E71A87 /* Pods-AudioStreamTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AudioStreamTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9805DD8FF4E624413387310816CED750 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9873E31FBD013995843944E781582247 /* Pods-AudioStreamUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AudioStreamUITests-resources.sh"; sourceTree = "<group>"; };
+		9E6313349D2EF6E7769546E00DB465D6 /* Pods-AudioStreamTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AudioStreamTests-dummy.m"; sourceTree = "<group>"; };
+		A410469005ABD4B683F9F5FDB2DEF800 /* youtube-ios-player-helper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "youtube-ios-player-helper-dummy.m"; sourceTree = "<group>"; };
+		A9246E41B6C9BDB210C975BF93AEA963 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADA1FFFAFED8B244EC9762C09614CF62 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADEBB731E903F8B7880E2EB915EB928F /* Pods-AudioStream-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AudioStream-frameworks.sh"; sourceTree = "<group>"; };
+		B015976873C4ABA96ABB07310A7DD85C /* Pods-AudioStreamTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AudioStreamTests.modulemap"; sourceTree = "<group>"; };
+		B67E50677123989FE29301DECADEADA1 /* Pods-AudioStreamTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AudioStreamTests-umbrella.h"; sourceTree = "<group>"; };
+		BBF7E6577EBA7CDEB68B963A8C2278EA /* Pods-AudioStreamUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AudioStreamUITests-umbrella.h"; sourceTree = "<group>"; };
+		BC619B1C3137040CEC6CE7299C6EC51C /* Pods-AudioStream.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AudioStream.modulemap"; sourceTree = "<group>"; };
+		C14DF8A8F329EC48E29AC708E4CA613C /* Pods-AudioStreamTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AudioStreamTests.release.xcconfig"; sourceTree = "<group>"; };
+		C66274FCDA96CC55E6E94A6E159DE7E9 /* Pods-AudioStream-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AudioStream-umbrella.h"; sourceTree = "<group>"; };
+		C87F97D4107E56CD977C0CF65E3A8658 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5974EDC6605FAB66A429F6722B8E44A /* Pods_AudioStream.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AudioStream.framework; path = "Pods-AudioStream.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9C13971F2A8A3739EB77007E3438A9F /* Pods_AudioStreamUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AudioStreamUITests.framework; path = "Pods-AudioStreamUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC0AD5BE17059FF5256693CDA4E4861F /* youtube-ios-player-helper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "youtube-ios-player-helper-prefix.pch"; sourceTree = "<group>"; };
+		DD36FA720043870A1B885DC434A49AC3 /* youtube_ios_player_helper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = youtube_ios_player_helper.framework; path = "youtube-ios-player-helper.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E518033EAAD7FF9CBBE26C93619C38DC /* YTPlayerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YTPlayerView.m; path = Classes/YTPlayerView.m; sourceTree = "<group>"; };
+		EE7CFF19B083918C1DB2DB02071281B3 /* Pods-AudioStreamUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AudioStreamUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FB0F97E978278D1265C513A3F291DA44 /* Pods-AudioStreamTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AudioStreamTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		91BF59D49BCA4C7A413BD177C4207916 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60E09FC97FEE020D772A82C0F60F8976 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0B195E445A06FA10C16DAE6D77813F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2F7B5CC5A79075BB31258224C1FE61B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC20A587A48CE229CD4720384908377B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCFBE9672D91BCCE694676413EAB5B97 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4CA3B137B8A2DCE60AD69BD867EB80E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93CD9C7BD5E26DCF634F41C8DF4CC167 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F509341BD1870283269ED41CE9BC532C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E75BAA22E2DFC965A501E5017263C08 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16C81FC9DB06DD498A3A4FFF08ACB1DF /* SwiftWebSocket */ = {
+			isa = PBXGroup;
+			children = (
+				66BC9D40458915FB3A0EE8081CB5DCEB /* WebSocket.swift */,
+				3CD991A8051F3595C12783922C7D2821 /* Support Files */,
+			);
+			name = SwiftWebSocket;
+			path = SwiftWebSocket;
+			sourceTree = "<group>";
+		};
+		3CD991A8051F3595C12783922C7D2821 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C87F97D4107E56CD977C0CF65E3A8658 /* Info.plist */,
+				35C0F3DCC275FD8DE44E90F2F22E8A38 /* SwiftWebSocket.modulemap */,
+				91CA9B367C182D9D1288E646238A9599 /* SwiftWebSocket.xcconfig */,
+				5BE98E1C91614A2C60D511D5AB9CE0C2 /* SwiftWebSocket-dummy.m */,
+				56830C076255036F6D512DA32D59C8B4 /* SwiftWebSocket-prefix.pch */,
+				830D52EBC915174C687132F0A192605D /* SwiftWebSocket-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftWebSocket";
+			sourceTree = "<group>";
+		};
+		60FB457CD51EEF2D327E02696DB85175 /* Pods-AudioStreamTests */ = {
+			isa = PBXGroup;
+			children = (
+				A9246E41B6C9BDB210C975BF93AEA963 /* Info.plist */,
+				B015976873C4ABA96ABB07310A7DD85C /* Pods-AudioStreamTests.modulemap */,
+				92FA63AFF7202C36667165EA44E71A87 /* Pods-AudioStreamTests-acknowledgements.markdown */,
+				52BD3ADCE78E7B624C6CBEB3B20BB6D1 /* Pods-AudioStreamTests-acknowledgements.plist */,
+				9E6313349D2EF6E7769546E00DB465D6 /* Pods-AudioStreamTests-dummy.m */,
+				39A84BAD8C67AED7A9B2A08FDA7BCCC7 /* Pods-AudioStreamTests-frameworks.sh */,
+				11EAF553ABD374FDAAB2B9C2429C04E8 /* Pods-AudioStreamTests-resources.sh */,
+				B67E50677123989FE29301DECADEADA1 /* Pods-AudioStreamTests-umbrella.h */,
+				FB0F97E978278D1265C513A3F291DA44 /* Pods-AudioStreamTests.debug.xcconfig */,
+				C14DF8A8F329EC48E29AC708E4CA613C /* Pods-AudioStreamTests.release.xcconfig */,
+			);
+			name = "Pods-AudioStreamTests";
+			path = "Target Support Files/Pods-AudioStreamTests";
+			sourceTree = "<group>";
+		};
+		63ED896A0254EB0AB1D47D69DA1D9B18 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5F3FDF81B819E68BCF269A7F30635A0B /* Assets.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				DAB1A2C89BDCD8E361989CB2C84E8AE8 /* Pods */,
+				9B93F2B4B84C6280AC889FC526EF4C65 /* Products */,
+				F38ADD8AA257A774F9E5C3F9EE68C7EC /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		920E921C327DB38E64D83596B215B200 /* Pods-AudioStream */ = {
+			isa = PBXGroup;
+			children = (
+				ADA1FFFAFED8B244EC9762C09614CF62 /* Info.plist */,
+				BC619B1C3137040CEC6CE7299C6EC51C /* Pods-AudioStream.modulemap */,
+				50FD6B1502D1F4113CFE38A8A3046FF5 /* Pods-AudioStream-acknowledgements.markdown */,
+				1E55361F3FD4F6364BD6B4253E3F8491 /* Pods-AudioStream-acknowledgements.plist */,
+				44B52BD8C8FD566C27CACB4541EF9619 /* Pods-AudioStream-dummy.m */,
+				ADEBB731E903F8B7880E2EB915EB928F /* Pods-AudioStream-frameworks.sh */,
+				651D6B08637477CE3F8B082BA322D4B8 /* Pods-AudioStream-resources.sh */,
+				C66274FCDA96CC55E6E94A6E159DE7E9 /* Pods-AudioStream-umbrella.h */,
+				7C26127A2128EB2054D5D30E708DAF64 /* Pods-AudioStream.debug.xcconfig */,
+				4AAD771F50B685C9A257EE4B34706CE3 /* Pods-AudioStream.release.xcconfig */,
+			);
+			name = "Pods-AudioStream";
+			path = "Target Support Files/Pods-AudioStream";
+			sourceTree = "<group>";
+		};
+		9B93F2B4B84C6280AC889FC526EF4C65 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5974EDC6605FAB66A429F6722B8E44A /* Pods_AudioStream.framework */,
+				707D02A0E27143635B1F33189630263B /* Pods_AudioStreamTests.framework */,
+				D9C13971F2A8A3739EB77007E3438A9F /* Pods_AudioStreamUITests.framework */,
+				66759F009C245851232D74FF215C8476 /* SwiftWebSocket.framework */,
+				DD36FA720043870A1B885DC434A49AC3 /* youtube_ios_player_helper.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A10D9EFC85399DF174E50C5D6644F8F9 /* Pods-AudioStreamUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9805DD8FF4E624413387310816CED750 /* Info.plist */,
+				74F68AFE7D9F19EC9D693543C1F0B201 /* Pods-AudioStreamUITests.modulemap */,
+				EE7CFF19B083918C1DB2DB02071281B3 /* Pods-AudioStreamUITests-acknowledgements.markdown */,
+				336370826A7B9AC57C9FC78198520018 /* Pods-AudioStreamUITests-acknowledgements.plist */,
+				2192685CD5994FE7035F6709492EAC69 /* Pods-AudioStreamUITests-dummy.m */,
+				359D47AC62C0B921E6D15D618DDAD617 /* Pods-AudioStreamUITests-frameworks.sh */,
+				9873E31FBD013995843944E781582247 /* Pods-AudioStreamUITests-resources.sh */,
+				BBF7E6577EBA7CDEB68B963A8C2278EA /* Pods-AudioStreamUITests-umbrella.h */,
+				8E990012C90E9097D5613F8D01DC78E2 /* Pods-AudioStreamUITests.debug.xcconfig */,
+				6829FA8B33CE4602A62C88D6A31A2CD0 /* Pods-AudioStreamUITests.release.xcconfig */,
+			);
+			name = "Pods-AudioStreamUITests";
+			path = "Target Support Files/Pods-AudioStreamUITests";
+			sourceTree = "<group>";
+		};
+		A1B03E0C156730B3AC8390CE9971E9C4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				51F27173D76907EA2E461BE67D599205 /* Info.plist */,
+				7E3AC81A8B021233A75DE04FACB14B5E /* youtube-ios-player-helper.modulemap */,
+				4C23E3C4D3620D2589B130D9664CBBC2 /* youtube-ios-player-helper.xcconfig */,
+				A410469005ABD4B683F9F5FDB2DEF800 /* youtube-ios-player-helper-dummy.m */,
+				DC0AD5BE17059FF5256693CDA4E4861F /* youtube-ios-player-helper-prefix.pch */,
+				26412DAB6312BB24768B3A112FB838A2 /* youtube-ios-player-helper-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/youtube-ios-player-helper";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		DAB1A2C89BDCD8E361989CB2C84E8AE8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				16C81FC9DB06DD498A3A4FFF08ACB1DF /* SwiftWebSocket */,
+				DABF4F8463B8A77D8211CD583876708A /* youtube-ios-player-helper */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DABF4F8463B8A77D8211CD583876708A /* youtube-ios-player-helper */ = {
+			isa = PBXGroup;
+			children = (
+				242A68A2025FF867A4FEC9A3C40BD496 /* YTPlayerView.h */,
+				E518033EAAD7FF9CBBE26C93619C38DC /* YTPlayerView.m */,
+				63ED896A0254EB0AB1D47D69DA1D9B18 /* Resources */,
+				A1B03E0C156730B3AC8390CE9971E9C4 /* Support Files */,
+			);
+			name = "youtube-ios-player-helper";
+			path = "youtube-ios-player-helper";
+			sourceTree = "<group>";
+		};
+		F38ADD8AA257A774F9E5C3F9EE68C7EC /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				920E921C327DB38E64D83596B215B200 /* Pods-AudioStream */,
+				60FB457CD51EEF2D327E02696DB85175 /* Pods-AudioStreamTests */,
+				A10D9EFC85399DF174E50C5D6644F8F9 /* Pods-AudioStreamUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		699596C518664D2DDA16247E7B0DFAD2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC472636CA099B0489E18F116B8E026B /* Pods-AudioStreamUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CD08FD639B0AA93EF96BCC8B9D1B250 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2526B68E0902C6A43FEFA54D97A98B21 /* Pods-AudioStreamTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		778184A01B4412F158CD270A1B29D784 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62FC5C6B65D10633024238B931690659 /* youtube-ios-player-helper-umbrella.h in Headers */,
+				A1934E96E712826FCB7C90C816A45ED9 /* YTPlayerView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C39E9A8B4227973A886873685F50076 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F835A103B751D05F7FCB6999FD17CD1 /* Pods-AudioStream-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB8C6A132C4A5FBC03807238CFA3FB9E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A8425D6B9CCB93911452591EE9044BA /* SwiftWebSocket-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0507EEE27E14ADE6EDC3097C1F970D15 /* Pods-AudioStreamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D05EFB45CD10DC44C6140CDAF8C68C0 /* Build configuration list for PBXNativeTarget "Pods-AudioStreamTests" */;
+			buildPhases = (
+				7816CEA66B8A79EBDD6E7A648B2D04AA /* Sources */,
+				EC20A587A48CE229CD4720384908377B /* Frameworks */,
+				6CD08FD639B0AA93EF96BCC8B9D1B250 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9BF8AA8FB9F791BC655BD9F313033F4E /* PBXTargetDependency */,
+			);
+			name = "Pods-AudioStreamTests";
+			productName = "Pods-AudioStreamTests";
+			productReference = 707D02A0E27143635B1F33189630263B /* Pods_AudioStreamTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		13DB13956D74D73513E85372B637C108 /* Pods-AudioStream */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E5673F93C375CE0B44C346FFD0F7613 /* Build configuration list for PBXNativeTarget "Pods-AudioStream" */;
+			buildPhases = (
+				E566C82A1C32BE0A348822F875210816 /* Sources */,
+				A0B195E445A06FA10C16DAE6D77813F2 /* Frameworks */,
+				7C39E9A8B4227973A886873685F50076 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E5FF5DC4B0E489B04D71BE937E473D4A /* PBXTargetDependency */,
+				B2160A55EF6530E19314C3DAF3855D9A /* PBXTargetDependency */,
+			);
+			name = "Pods-AudioStream";
+			productName = "Pods-AudioStream";
+			productReference = D5974EDC6605FAB66A429F6722B8E44A /* Pods_AudioStream.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8138CB42FD34D96372AFE89941B3D70F /* Pods-AudioStreamUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E61A0F4DC1B976FBC0B4BC96ACD3624E /* Build configuration list for PBXNativeTarget "Pods-AudioStreamUITests" */;
+			buildPhases = (
+				9C347F4459DD44EE99FDD4B714D08B3E /* Sources */,
+				F509341BD1870283269ED41CE9BC532C /* Frameworks */,
+				699596C518664D2DDA16247E7B0DFAD2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79F9B9986D30943F4D570FDEA29F6012 /* PBXTargetDependency */,
+			);
+			name = "Pods-AudioStreamUITests";
+			productName = "Pods-AudioStreamUITests";
+			productReference = D9C13971F2A8A3739EB77007E3438A9F /* Pods_AudioStreamUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AF93568035045DB95C37F8A64C33E4A8 /* youtube-ios-player-helper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 379B5493B0D8333E10991F013EF779C1 /* Build configuration list for PBXNativeTarget "youtube-ios-player-helper" */;
+			buildPhases = (
+				9CBE3AFB10F3AFE1FB3C0561709F8B57 /* Sources */,
+				F4CA3B137B8A2DCE60AD69BD867EB80E /* Frameworks */,
+				778184A01B4412F158CD270A1B29D784 /* Headers */,
+				7CEF4DB301625D07E3F98043B7207765 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "youtube-ios-player-helper";
+			productName = "youtube-ios-player-helper";
+			productReference = DD36FA720043870A1B885DC434A49AC3 /* youtube_ios_player_helper.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D245922ACEFB712DF69E52B56EA649CC /* SwiftWebSocket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D48B2D8F2148FB551F5C744303D6041A /* Build configuration list for PBXNativeTarget "SwiftWebSocket" */;
+			buildPhases = (
+				9046A4DBE3FEA20C00C3E776CB8D32BF /* Sources */,
+				91BF59D49BCA4C7A413BD177C4207916 /* Frameworks */,
+				FB8C6A132C4A5FBC03807238CFA3FB9E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftWebSocket;
+			productName = SwiftWebSocket;
+			productReference = 66759F009C245851232D74FF215C8476 /* SwiftWebSocket.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 9B93F2B4B84C6280AC889FC526EF4C65 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13DB13956D74D73513E85372B637C108 /* Pods-AudioStream */,
+				0507EEE27E14ADE6EDC3097C1F970D15 /* Pods-AudioStreamTests */,
+				8138CB42FD34D96372AFE89941B3D70F /* Pods-AudioStreamUITests */,
+				D245922ACEFB712DF69E52B56EA649CC /* SwiftWebSocket */,
+				AF93568035045DB95C37F8A64C33E4A8 /* youtube-ios-player-helper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7CEF4DB301625D07E3F98043B7207765 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78C099739EEE388B03338A8912D4AA97 /* Assets.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7816CEA66B8A79EBDD6E7A648B2D04AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F18278DF6EB7FCC91A4708E87D8214F9 /* Pods-AudioStreamTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9046A4DBE3FEA20C00C3E776CB8D32BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9E4D121C6D1B9850B26F7FE326B73D5 /* SwiftWebSocket-dummy.m in Sources */,
+				E1099C3EC24D8B3A8B34923802579B66 /* WebSocket.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C347F4459DD44EE99FDD4B714D08B3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				354A9C45F3B7EABF6CEC5594E22749CA /* Pods-AudioStreamUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CBE3AFB10F3AFE1FB3C0561709F8B57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FC9D7AD5F1A8E4004B84B40EF50261F /* youtube-ios-player-helper-dummy.m in Sources */,
+				0A891F7AA25AA57E9CCAF3DF77952A68 /* YTPlayerView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E566C82A1C32BE0A348822F875210816 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3C699357F18DC74F4AE633148F5614B /* Pods-AudioStream-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		79F9B9986D30943F4D570FDEA29F6012 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-AudioStream";
+			target = 13DB13956D74D73513E85372B637C108 /* Pods-AudioStream */;
+			targetProxy = D207A8E2DD4A2F72CCF83B0934BF6E3C /* PBXContainerItemProxy */;
+		};
+		9BF8AA8FB9F791BC655BD9F313033F4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-AudioStream";
+			target = 13DB13956D74D73513E85372B637C108 /* Pods-AudioStream */;
+			targetProxy = CBEDBE0E7C0EDEBBDB926820AF8680FB /* PBXContainerItemProxy */;
+		};
+		B2160A55EF6530E19314C3DAF3855D9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "youtube-ios-player-helper";
+			target = AF93568035045DB95C37F8A64C33E4A8 /* youtube-ios-player-helper */;
+			targetProxy = 7B8B39587DBB8642A6728C35CD1C4F5F /* PBXContainerItemProxy */;
+		};
+		E5FF5DC4B0E489B04D71BE937E473D4A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftWebSocket;
+			target = D245922ACEFB712DF69E52B56EA649CC /* SwiftWebSocket */;
+			targetProxy = 3E8FE2C40278DB1BD9AC53FED1833E61 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		199D972A13F2B4C56847F7A89CCA83BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3209731AD5FCE92D9E60C3A9D5D64C8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AAD771F50B685C9A257EE4B34706CE3 /* Pods-AudioStream.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AudioStream/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AudioStream/Pods-AudioStream.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3474CCD3E35E71BE3C9D03A10C4533DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C14DF8A8F329EC48E29AC708E4CA613C /* Pods-AudioStreamTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AudioStreamTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AudioStreamTests/Pods-AudioStreamTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5CF78F939ACCFFA9D2B1DC816825BBB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E990012C90E9097D5613F8D01DC78E2 /* Pods-AudioStreamUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AudioStreamUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AudioStreamUITests/Pods-AudioStreamUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		75AB83EBA66A95E1FCE74413E91A9D66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C23E3C4D3620D2589B130D9664CBBC2 /* youtube-ios-player-helper.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/youtube-ios-player-helper/youtube-ios-player-helper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/youtube-ios-player-helper/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/youtube-ios-player-helper/youtube-ios-player-helper.modulemap";
+				PRODUCT_MODULE_NAME = youtube_ios_player_helper;
+				PRODUCT_NAME = youtube_ios_player_helper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8156513039B29CB3AB815CCDB5F73A95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91CA9B367C182D9D1288E646238A9599 /* SwiftWebSocket.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftWebSocket/SwiftWebSocket-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftWebSocket/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftWebSocket/SwiftWebSocket.modulemap";
+				PRODUCT_MODULE_NAME = SwiftWebSocket;
+				PRODUCT_NAME = SwiftWebSocket;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		915B9045D7D226BD57A0C7C307BC2A9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C26127A2128EB2054D5D30E708DAF64 /* Pods-AudioStream.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AudioStream/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AudioStream/Pods-AudioStream.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		92B7718B94CDF14B1A42718BCED3C426 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB0F97E978278D1265C513A3F291DA44 /* Pods-AudioStreamTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AudioStreamTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AudioStreamTests/Pods-AudioStreamTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A1C9A34C3D24B52A4A13FB7D5EC8149D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6829FA8B33CE4602A62C88D6A31A2CD0 /* Pods-AudioStreamUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AudioStreamUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AudioStreamUITests/Pods-AudioStreamUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AB430C6B8413F663E58530DD4A9BCC9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91CA9B367C182D9D1288E646238A9599 /* SwiftWebSocket.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftWebSocket/SwiftWebSocket-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftWebSocket/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftWebSocket/SwiftWebSocket.modulemap";
+				PRODUCT_MODULE_NAME = SwiftWebSocket;
+				PRODUCT_NAME = SwiftWebSocket;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B54EE317062C49D9BF51C7FA61096392 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C23E3C4D3620D2589B130D9664CBBC2 /* youtube-ios-player-helper.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/youtube-ios-player-helper/youtube-ios-player-helper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/youtube-ios-player-helper/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/youtube-ios-player-helper/youtube-ios-player-helper.modulemap";
+				PRODUCT_MODULE_NAME = youtube_ios_player_helper;
+				PRODUCT_NAME = youtube_ios_player_helper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FDB2FC4A1E5891381CD9D922145497F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				199D972A13F2B4C56847F7A89CCA83BC /* Debug */,
+				FDB2FC4A1E5891381CD9D922145497F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		379B5493B0D8333E10991F013EF779C1 /* Build configuration list for PBXNativeTarget "youtube-ios-player-helper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75AB83EBA66A95E1FCE74413E91A9D66 /* Debug */,
+				B54EE317062C49D9BF51C7FA61096392 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D05EFB45CD10DC44C6140CDAF8C68C0 /* Build configuration list for PBXNativeTarget "Pods-AudioStreamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92B7718B94CDF14B1A42718BCED3C426 /* Debug */,
+				3474CCD3E35E71BE3C9D03A10C4533DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E5673F93C375CE0B44C346FFD0F7613 /* Build configuration list for PBXNativeTarget "Pods-AudioStream" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				915B9045D7D226BD57A0C7C307BC2A9D /* Debug */,
+				3209731AD5FCE92D9E60C3A9D5D64C8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D48B2D8F2148FB551F5C744303D6041A /* Build configuration list for PBXNativeTarget "SwiftWebSocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8156513039B29CB3AB815CCDB5F73A95 /* Debug */,
+				AB430C6B8413F663E58530DD4A9BCC9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E61A0F4DC1B976FBC0B4BC96ACD3624E /* Build configuration list for PBXNativeTarget "Pods-AudioStreamUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CF78F939ACCFFA9D2B1DC816825BBB8 /* Debug */,
+				A1C9A34C3D24B52A4A13FB7D5EC8149D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
