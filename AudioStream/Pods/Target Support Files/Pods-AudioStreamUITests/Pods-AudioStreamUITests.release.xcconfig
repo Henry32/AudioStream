@@ -1,7 +1,9 @@
-FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/SwiftWebSocket" "${PODS_CONFIGURATION_BUILD_DIR}/youtube-ios-player-helper"
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/OGVKit" "${PODS_CONFIGURATION_BUILD_DIR}/Socket.IO-Client-Swift" "${PODS_CONFIGURATION_BUILD_DIR}/Starscream" "${PODS_CONFIGURATION_BUILD_DIR}/libnestegg" "${PODS_CONFIGURATION_BUILD_DIR}/libogg" "${PODS_CONFIGURATION_BUILD_DIR}/liboggz" "${PODS_CONFIGURATION_BUILD_DIR}/libopus" "${PODS_CONFIGURATION_BUILD_DIR}/libtheora" "${PODS_CONFIGURATION_BUILD_DIR}/libvorbis" "${PODS_CONFIGURATION_BUILD_DIR}/youtube-ios-player-helper" "${PODS_ROOT}/libvpx"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/libopus/silk" "${PODS_ROOT}/libopus/silk"
 LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
-OTHER_CFLAGS = $(inherited) -iquote "${PODS_CONFIGURATION_BUILD_DIR}/SwiftWebSocket/SwiftWebSocket.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/youtube-ios-player-helper/youtube_ios_player_helper.framework/Headers"
+OTHER_CFLAGS = $(inherited) -iquote "${PODS_CONFIGURATION_BUILD_DIR}/OGVKit/OGVKit.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/Socket.IO-Client-Swift/SocketIO.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/Starscream/Starscream.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/libnestegg/nestegg.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/libogg/ogg.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/liboggz/oggz.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/libopus/libopus.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/libtheora/theora.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/libvorbis/vorbis.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/youtube-ios-player-helper/youtube_ios_player_helper.framework/Headers"
+OTHER_LDFLAGS = $(inherited) -framework "VPX"
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_PODFILE_DIR_PATH = ${SRCROOT}/.

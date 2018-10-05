@@ -143,11 +143,29 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/SwiftWebSocket/SwiftWebSocket.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/OGVKit/OGVKit.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Socket.IO-Client-Swift/SocketIO.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/libnestegg/nestegg.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/libogg/ogg.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/liboggz/oggz.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/libopus/libopus.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/libtheora/theora.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/libvorbis/vorbis.framework"
+  install_framework "${PODS_ROOT}/libvpx/VPX.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/youtube-ios-player-helper/youtube_ios_player_helper.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/SwiftWebSocket/SwiftWebSocket.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/OGVKit/OGVKit.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Socket.IO-Client-Swift/SocketIO.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/libnestegg/nestegg.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/libogg/ogg.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/liboggz/oggz.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/libopus/libopus.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/libtheora/theora.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/libvorbis/vorbis.framework"
+  install_framework "${PODS_ROOT}/libvpx/VPX.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/youtube-ios-player-helper/youtube_ios_player_helper.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
